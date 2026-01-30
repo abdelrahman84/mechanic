@@ -20,7 +20,7 @@ const App: () => Node = () => {
 
   return (
     <NativeBaseProvider>
-      <NavigationContainer independent>
+      <NavigationContainer>
         <Stack.Navigator
           screenOptions={{ headerShown: false }}>
           <Stack.Screen name="StartPage" component={StartPage} />
